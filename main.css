@@ -1,0 +1,34 @@
+.header, .main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.playGameBtn {
+  font-size: 3em;
+  padding: 25px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.gameField {
+  display: flex;
+  justify-content: center;
+  font-size: 5em;
+}
+
+.gameCard {
+  border: 1px solid gray;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.gameCard:hover {
+  background-color: lightgoldenrodyellow;
+}
